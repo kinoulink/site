@@ -1,0 +1,17 @@
+.section {
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  h1, h2, h3, h4 {
+    margin-bottom: 15px;
+  }
+  .img-bottom {
+    margin-bottom: -40px;
+    margin-top: 40px;
+    z-index: 200 !important;
+
+    &.bottom-over {
+      margin-bottom: -63px;
+    }
+  }
+}

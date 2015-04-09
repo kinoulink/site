@@ -40,12 +40,11 @@ module.exports = function (grunt)
 
   grunt.registerTask('build', [
     'clean:dist',
-      'compass:dist',
     'autoprefixer',
     'concat',
     'ngmin',
     'copy:dist',
-      'concurrent:dist',
+    'concurrent:dist',
     'filerev',
     'usemin',
     'htmlmin'

@@ -5,7 +5,7 @@ module.exports = {
                 expand: true,
                 cwd: "<%= yeoman.app %>/images",
                 src: "{,*/}*.{png,jpg,jpeg,gif}",
-                dest: "<%= yeoman.dist %>/images"
+                dest: "<%= yeoman.dist %>/img"
             }
         ]
     }

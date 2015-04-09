@@ -11,7 +11,6 @@ module.exports = {
                     "*.config",
                     "*.html",
                     "views/{,*/}*.html",
-                    "images/{,*/}*.{webp}",
                     "fonts/*",
                     "sounds/*"
                 ]

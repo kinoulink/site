@@ -1,0 +1,25 @@
+@import "../settings";
+@import "../extension";
+
+.header-wrapper {
+  height: 100px;
+  background-color: $white;
+  border-bottom: 1px solid $color_gallery_approx;
+}
+.navigation {
+  display: block;
+  margin: 37px 0 0;
+  padding: 0;
+  text-align: right;
+}
+.navigation__item {
+  display: inline-block;
+  margin-left: 15px;
+  a {
+    text-decoration: none;
+    color: $color_rangoon_green_approx;
+    &:hover {
+      color: $color_curious_blue_approx;
+    }
+  }
+}

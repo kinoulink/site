@@ -3,7 +3,7 @@ module.exports = {
         files: [
             {
                 expand: true,
-                cwd: "<%= yeoman.app %>/images",
+                cwd: "<%= yeoman.app %>/img",
                 src: "{,*/}*.{png,jpg,jpeg,gif}",
                 dest: "<%= yeoman.dist %>/img"
             }

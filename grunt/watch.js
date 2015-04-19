@@ -5,7 +5,17 @@ module.exports = {
         ],
         tasks: [
             "compass:server",
-            "autoprefixer"
+            "autoprefixer",
+            "concat:css_vendor",
+            "concat:css_my"
+        ]
+    },
+    scripts: {
+      files: [
+          "<%= yeoman.app %>/scripts/{,*/}*.js"
+      ],
+        tasks: [
+            "concat:js"
         ]
     },
     livereload: {
@@ -15,7 +25,7 @@ module.exports = {
         files: [
             "<%= yeoman.app %>/{,*/}*.html",
             "<%= yeoman.app %>/views/{,*/}*.html",
-            ".tmp/styles/{,*/}*.css",
+            ".tmp/styles/*.css",
             ".tmp/scripts/*.js",
             "<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}"
         ]

@@ -31,6 +31,7 @@ module.exports = function (grunt)
     grunt.task.run([
       'clean:server',
       'concurrent:server',
+      'compass',
 	  'concat',
       'autoprefixer',
       'connect:livereload',
@@ -41,6 +42,7 @@ module.exports = function (grunt)
   grunt.registerTask('build', [
     'clean:dist',
     'autoprefixer',
+    'compass',
     'concat',
     'ngmin',
     'copy:dist',

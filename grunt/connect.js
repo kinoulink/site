@@ -10,7 +10,7 @@ module.exports = {
             middleware: function (connect) {
                 return [
                     connect.static('.tmp'),
-                    connect.static('./app/app')
+                    connect.static('./app/src')
                 ];
             }
         }

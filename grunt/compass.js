@@ -2,12 +2,12 @@ module.exports = {
     options: {
         sassDir: "<%= yeoman.app %>/styles",
         cssDir: "<%= yeoman.tmp %>/styles",
-        generatedImagesDir: "<%= yeoman.tmp %>/images/generated",
-        imagesDir: "<%= yeoman.app %>/images",
+        generatedImagesDir: "<%= yeoman.tmp %>/img/generated",
+        imagesDir: "<%= yeoman.app %>/img",
         javascriptsDir: "<%= yeoman.app %>/scripts",
         fontsDir: "<%= yeoman.app %>/styles/fonts",
-        httpImagesPath: "/images",
-        httpGeneratedImagesPath: "/images/generated",
+        httpImagesPath: "/img",
+        httpGeneratedImagesPath: "/img/generated",
         httpFontsPath: "/styles/fonts",
         relativeAssets: false,
         assetCacheBuster: false,
@@ -16,7 +16,7 @@ module.exports = {
     },
     dist: {
         options: {
-            generatedImagesDir: "<%= yeoman.dist %>/images/generated"
+            generatedImagesDir: "<%= yeoman.dist %>/img/generated"
         }
     },
     server: {

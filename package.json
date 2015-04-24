@@ -1,7 +1,9 @@
 {
   "name": "kinoulink",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "assemble": "^0.4.42"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
@@ -24,8 +26,8 @@
     "grunt-usemin": "^2.1.1",
     "load-grunt-tasks": "^0.4.0",
     "time-grunt": "^0.3.1",
-      "grunt-exec" : "0.4.6",
-      "glob" : "4.0.6"
+    "grunt-exec": "0.4.6",
+    "glob": "4.0.6"
   },
   "engines": {
     "node": ">=0.10.0"

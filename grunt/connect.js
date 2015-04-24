@@ -1,8 +1,8 @@
 module.exports = {
     options: {
-        port: 8000,
-        hostname: "localhost",
-        livereload: 35729
+        port: 8002,
+        hostname: "127.0.0.1",
+        livereload: 35728
     },
     livereload: {
         options: {

@@ -1,0 +1,8 @@
+web:
+  image: ebuildy/docker-nginx-php
+  volumes:
+    - /home/kinoulink/site/ops/config:/var:/var/config
+    - /home/kinoulink/site/app:/var:/var/www
+    - /home/kinoulink/site/logs:/var:/var/log/nginx
+  ports:
+    - 80:80

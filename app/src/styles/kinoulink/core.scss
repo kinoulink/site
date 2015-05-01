@@ -24,18 +24,16 @@ body {
   line-height: 1.5;
   font-family: $font_0, $font_1, $font_2, $font_3, $font_4;
   font-weight: 300;
+  overflow-x: hidden;
 }
 h1 {
-  font-family: $font_5, $font_6, $font_4;
-  font-weight: 700;
+  font-weight: normal;
 }
 h2 {
-  font-family: $font_5, $font_6, $font_4;
   font-weight: 700;
   font-size: 1.6em;
 }
 h3 {
-  font-family: $font_5, $font_6, $font_4;
   font-weight: 700;
   font-size: 1.3em;
   font-weight: 400;
@@ -44,19 +42,16 @@ h3 {
   }
 }
 h4 {
-  font-family: $font_5, $font_6, $font_4;
   font-weight: 700;
   font-size: 24px;
 }
 h5 {
-  font-family: $font_5, $font_6, $font_4;
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
   margin-bottom: .5em;
 }
 h6 {
-  font-family: $font_5, $font_6, $font_4;
   font-size: 21px;
   line-height: 31px;
   font-weight: 400;

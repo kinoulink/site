@@ -441,6 +441,37 @@
   border-top: 1px solid $concrete;
   background: $color_black_haze_approx;
   background: linear-gradient(to bottom, $color_black_haze_approx 0, $gallery 100%);
+}
+
+.video
+{
+  width: 100%;
+  max-width: 542px;
+  margin: auto;
+  position: relative;
+  height: 383px;
+  background: url(/img/slides/tv@2x.png) no-repeat 0 50px;
+  background-size: 100% 80%;
+
+  iframe
+  {
+    width: 100%;
+    max-width: 560px;
+    height: 282px;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 5px;
+    background: #1B1B1B;
+  }
+
+}
+
+.ulule
+{
+  background: #fff;
+  text-align: center;
+  position: relative;
+
   h3 {
     display: inline;
     line-height: 115px;
@@ -449,22 +480,6 @@
   img {
     float: left;
     margin-top: 17px;
-  }
-}
-
-.subscribe__form {
-  margin-top: 32px;
-  input {
-    height: 50px;
-    vertical-align: top;
-  }
-  .button {
-    height: 50px;
-    vertical-align: top;
-  }
-  input[type="email"] {
-    width: 240px;
-    margin-right: -4px;
   }
 }
 

@@ -5,7 +5,9 @@ module.exports = {
             conservativeCollapse: true,
             collapseBooleanAttributes: true,
             removeCommentsFromCDATA: true,
-            removeOptionalTags: true
+            removeOptionalTags: true,
+            preserveLineBreaks: true,
+            removeComments: true
         },
         files: [
             {

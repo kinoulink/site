@@ -171,7 +171,7 @@
 <section class="ulule">
     <div class="container">
         <img src="/img/ulule.png" />
-        <h3><strong>Commandez votre KinouTV sur </strong><a href="https://www.ulule.com/kinoulink/">https://www.ulule.com/kinoulink/</a></h3>
+        <h3><strong>Commandez votre KinouTV sur </strong><a href="http://fr.ulule.com/kinoulink/">http://fr.ulule.com/kinoulink/</a></h3>
     </div>
 </section>
 
@@ -201,6 +201,9 @@
                             img/features/btn_appstore.png 1x,
                             img/features/btn_appstore@2x.png 2x
                         ">
+                </a>
+                <a href="#" class="store">
+                    <img src="img/features/btn_windowsstore.png" alt="App store" width="172">
                 </a>
             </div>
         </article>
@@ -292,25 +295,22 @@
                 </p>
                 <br/>
                 <h6>Suivez nous</h6>
-                <a href="#" class="social_icon social_icon--fb" target="_blank"></a>
-                <a href="#" class="social_icon social_icon--tw" target="_blank"></a>
-                <a href="#" class="social_icon social_icon--li" target="_blank"></a>
+                <div class="text-center">
+                    <a href="https://www.facebook.com/Kinoulink" class="social_icon social_icon--fb" target="_blank"></a>
+                    <a href="https://twitter.com/kinoulink" class="social_icon social_icon--tw" target="_blank"></a>
+                </div>
             </div>
 
             <div class="col-sm-6 push_1">
                 <h6>Contactez nous</h6>
-                <p>Investisseur, client lorem ipsum dolor sit amet nunque tu quoque mi filii, rosa rosa rosam</p>
-                <form action="#" method="POST">
+                <p>Une question, idée sur Kinoulink ou simlement nous dire bonjour:</p>
+                <form action="//api.kinoulink.com/contact" method="POST">
                     <fieldset class="clearfix">
-                        <input type="text" placeholder="Votre nom" name="name" class="grid_3 alpha" />
-                        <input type="email" placeholder="Votre email" name="email" class="grid_3 omega" />
+                        <input type="text" placeholder="Votre nom" name="name" class="grid_3 alpha" required="true" />
+                        <input type="email" placeholder="Votre email" name="email" class="grid_3 omega" required="true" />
                     </fieldset>
                     <fieldset class="clearfix">
-                        <input type="text" placeholder="Numéro de téléphone" name="phone" class="grid_3 alpha" />
-                        <input type="text" placeholder="Objet du message" name="object" class="grid_3 omega" />
-                    </fieldset>
-                    <fieldset class="clearfix">
-                        <textarea placeholder="Votre message" name="message" class="grid_6 alpha omega"></textarea>
+                        <textarea placeholder="Votre message" name="message" class="grid_6 alpha omega" required="true"></textarea>
                     </fieldset>
                     <fieldset class="clearfix u-align--right">
                         <button type="submit" class="button button--blue">Envoyer</button>

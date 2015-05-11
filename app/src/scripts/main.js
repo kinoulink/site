@@ -63,12 +63,15 @@ $(document).ready(function() {
 
     $("#contactForm").submit(function()
     {
-        var data = $(this).serialize();
+        var $form = $(this), data = $(this).serialize();
 
         $.get('http://k-api.cloudapp.net/crm/contact/post?' + data, function()
         {
-            alert('Merci !');
-        }, 'json');
+            $form.get(0).reset();
+
+            swal("Merci !", "Nous avons bien reçu votre message.", "success");
+        },
+        'json');
 
         return false;
     });

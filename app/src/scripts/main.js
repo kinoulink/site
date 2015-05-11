@@ -61,4 +61,15 @@ $(document).ready(function() {
 		animateSlides();
 	});
 
+    $("#contactForm").submit(function()
+    {
+        var data = $(this).serialize();
+
+        $.get('http://k-api.cloudapp.net/crm/contact/post?' + data, function()
+        {
+            alert('Merci !');
+        }, 'json');
+
+        return false;
+    });
 });

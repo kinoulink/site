@@ -15,7 +15,7 @@ module.exports = {
           "<%= yeoman.app %>/scripts/{,*/}*.js"
       ],
         tasks: [
-            "concat:js"
+            "concat:js_my"
         ]
     },
     livereload: {

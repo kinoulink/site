@@ -24,3 +24,51 @@ footer {
         min-height: 100px;
     }
 }
+
+.supporters
+{
+  background: #A66EDB;
+  position: relative;
+  padding: 10px 0;
+  text-align: center;
+
+  h3
+  {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#fff;
+  }
+}
+
+.ulule-avatar
+{
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+
+  img
+  {
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    border:3px solid #fff;
+  }
+
+  span
+  {
+    background: #fff;
+    font-size: 10px;
+    left: -5px;
+    right: -5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    bottom: -5px;
+    border-radius: 4px;
+    padding: 1px;
+    position: absolute;
+  }
+}

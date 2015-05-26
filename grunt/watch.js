@@ -18,13 +18,20 @@ module.exports = {
             "concat:js_my"
         ]
     },
+    assemble: {
+      files: [
+          "<%= yeoman.app %>/templates/{,*/}*.hbs"
+      ],
+      tasks: [
+          "assemble:pages"
+      ]
+    },
     livereload: {
         options: {
             livereload: "<%= connect.options.livereload %>"
         },
         files: [
-            "<%= yeoman.app %>/{,*/}*.html",
-            "<%= yeoman.app %>/views/{,*/}*.html",
+            "<%= yeoman.tmp %>/{,*/}*.html",
             ".tmp/styles/*.css",
             ".tmp/scripts/*.js",
             "<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}"

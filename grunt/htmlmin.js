@@ -12,10 +12,8 @@ module.exports = {
         files: [
             {
                 expand: true,
-                cwd: "<%= yeoman.dist %>",
                 src: [
-                    "*.html",
-                    "views/{,*/}*.html"
+                    "<%= yeoman.tmp %>/*.html"
                 ],
                 dest: "<%= yeoman.dist %>"
             }

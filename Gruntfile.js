@@ -6,6 +6,8 @@ module.exports = function (grunt)
 
   require('time-grunt')(grunt);
 
+    grunt.loadNpmTasks('assemble');
+
   var appConfig = {
         app: './app/src',
         dist: './app/dist',
@@ -35,6 +37,7 @@ module.exports = function (grunt)
 	  'concat',
       'autoprefixer',
       'connect:livereload',
+      'assemble:pages',
       'watch'
     ]);
   });
@@ -49,6 +52,7 @@ module.exports = function (grunt)
     'concurrent:dist',
     'filerev',
     'usemin',
+    'assemble:page',
     'htmlmin'
   ]);
   
@@ -60,7 +64,7 @@ module.exports = function (grunt)
   grunt.registerTask('default', [
     'test',
     'build'
-  ]);
+]);
 };
 
 function loadConfig(path) {

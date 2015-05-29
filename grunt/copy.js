@@ -9,8 +9,6 @@ module.exports = {
                 src: [
                     "*.{ico,png,txt}",
                     "*.config",
-                    "*.html",
-                    "views/{,*/}*.html",
                     "fonts/*",
                     "sounds/*"
                 ]
@@ -21,6 +19,14 @@ module.exports = {
                 dest: "<%= yeoman.dist %>/images",
                 src: [
                     "generated/*"
+                ]
+            },
+            {
+                expand: true,
+                cwd: ".tmp",
+                dest: "<%= yeoman.dist %>",
+                src: [
+                    "*.html"
                 ]
             }
         ]

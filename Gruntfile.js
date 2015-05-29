@@ -52,7 +52,7 @@ module.exports = function (grunt)
     'concurrent:dist',
     'filerev',
     'usemin',
-    'assemble:page',
+    'assemble:pages',
     'htmlmin'
   ]);
   

@@ -1,6 +1,6 @@
 module.exports = {
     html: [
-        "<%= yeoman.dist %>/index.html"
+        "<%= yeoman.dist %>/*.html"
     ],
     css: [
         "<%= yeoman.dist %>/styles/{,*/}*.css"

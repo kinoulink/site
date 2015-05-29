@@ -51,9 +51,9 @@ module.exports = function (grunt)
     'assemble:pages',
     'copy:dist',
     'concurrent:dist',
-    'filerev',
-    'usemin',
-    'htmlmin'
+    'htmlmin',
+  'filerev',
+      'usemin'
   ]);
   
   grunt.registerTask('deploy', [

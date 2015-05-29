@@ -20,14 +20,6 @@ module.exports = {
                 src: [
                     "generated/*"
                 ]
-            },
-            {
-                expand: true,
-                cwd: ".tmp",
-                dest: "<%= yeoman.dist %>",
-                src: [
-                    "*.html"
-                ]
             }
         ]
     }

@@ -48,11 +48,11 @@ module.exports = function (grunt)
     'compass',
     'concat',
     'ngmin',
+    'assemble:pages',
     'copy:dist',
     'concurrent:dist',
     'filerev',
     'usemin',
-    'assemble:pages',
     'htmlmin'
   ]);
   

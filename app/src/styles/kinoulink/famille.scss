@@ -1,0 +1,46 @@
+.body-famille {
+  .section-title {
+    background: url(/img/photos/pince_a_linge.jpg) 50% 50%;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+
+    &:before {
+      position: absolute;
+      content: " ";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+      position: relative;
+    }
+  }
+
+  .section-sub {
+    background-color: #f0F0F0;
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+    img
+    {
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+  }
+
+  footer {
+    background-color: #507699;
+    color: #FBFBFB;
+  }
+
+  h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+}

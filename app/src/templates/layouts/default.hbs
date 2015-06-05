@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
 
-    <title>Kinoulink, votre plateforme de partage de photos et vidéos, gratuite, privée et sécurisée !</title>
+    <title>{{ title }}</title>
 
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:500,400italic,700italic,300,700,500italic,300italic,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/styles/vendor.css" />
@@ -31,7 +31,7 @@
         })();
     </script>
 </head>
-<body id="container">
+<body id="container" class="body-{{ bodyClass }}">
 
     {{> header }}
 

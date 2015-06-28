@@ -15,10 +15,10 @@ module.exports = {
             },
             {
                 expand: true,
-                cwd: ".tmp/images",
-                dest: "<%= yeoman.dist %>/images",
+                cwd: ".tmp",
+                dest: "<%= yeoman.dist %>",
                 src: [
-                    "generated/*"
+                    "*.html"
                 ]
             }
         ]

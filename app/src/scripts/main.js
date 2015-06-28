@@ -65,7 +65,7 @@ $(document).ready(function() {
     {
         var $form = $(this), data = $(this).serialize();
 
-        $.get('http://k-api.cloudapp.net/crm/contact/post?' + data, function()
+        $.get('http://k-prod.cloudapp.net/crm/contact/post?' + data, function()
         {
             $form.get(0).reset();
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
         return false;
     });
 
-    $.get('http://k-api.cloudapp.net/ulule/supporters', function(response)
+    $.get('http://k-prod.cloudapp.net/ulule/supporters', function(response)
     {
         var html = '';
 

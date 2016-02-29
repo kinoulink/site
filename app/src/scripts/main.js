@@ -75,17 +75,4 @@ $(document).ready(function() {
 
         return false;
     });
-
-    $.get('http://k-prod.cloudapp.net/ulule/supporters', function(response)
-    {
-        var html = '';
-
-        $.each(response.data, function(i, item)
-        {
-            html += '<a class="ulule-avatar" title="' + item.name + '"><img src="' + item.avatar + '" alt="' + item.name + '" /><span>' + item.name + '</span></a>'
-        });
-
-        $('#ulule').append(html);
-
-    }, 'json');
 });
